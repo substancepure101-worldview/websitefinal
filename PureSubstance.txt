@@ -1,0 +1,125 @@
+Based on the excerpts provided describing **PURESUBSTANCE — Content Creation Firm**, here is a proposed HTML structure for a service or company profile page.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PureSubstance - Content Creation Firm</title>
+    <!-- Basic meta tags and linking to CSS would go here -->
+</head>
+<body>
+
+    <header>
+        <h1>PURESUBSTANCE — Content Creation Firm</h1>
+        <p class="tagline">“Anything content — depth, strategy, and substance.”</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>What the Business Is About</h2>
+            <p>
+                PureSubstance is a content creation and strategy firm that helps individuals, brands, and organizations communicate with depth, meaning, and precision. It focuses on content as a tool of influence, clarity, and growth — not just aesthetics or posting. PureSubstance creates, structures, and optimizes all forms of content — written, visual, audio, and interactive — ensuring each piece aligns with a strategic purpose.
+            </p>
+            <p class="distinction">
+                PureSubstance is not a marketing agency; it is a content intelligence firm — where creativity meets analysis.
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Core Content Service Categories</h2>
+
+            <ul class="main-categories">
+                <li>Strategic Content Services</li>
+                <li>Written Content Creation</li>
+                <li>Visual Content Creation</li>
+                <li>Audio & Video Production</li>
+                <li>Digital & Interactive Content</li>
+                <li>Content Systems & Management</li>
+                <li>Education & Consulting</li>
+            </ul>
+
+            <div class="service-details">
+                <article>
+                    <h3>Strategic Content Services</h3>
+                    <ul>
+                        <li>Content strategy development</li>
+                        <li>Brand tone & voice definition</li>
+                        <li>Audience profiling and message frameworks</li>
+                        <li>Campaign & launch strategy</li>
+                        <li>Content calendar planning</li>
+                        <li>Market and competitor content analysis</li>
+                        <li>Story architecture and crisis content planning</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Written Content Creation</h3>
+                    <ul>
+                        <li>Articles, blogs, white papers, and reports</li>
+                        <li>Website copywriting and company profiles</li>
+                        <li>Scripts, email campaigns, and landing pages</li>
+                        <li>Creative storytelling and cultural writing</li>
+                        <li>Technical documentation and policy simplification</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Visual Content Creation</h3>
+                    <ul>
+                        <li>Graphic design, infographics, and branding</li>
+                        <li>Photography and digital illustration</li>
+                        <li>Motion graphics, animation, and presentations</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Audio & Video Production</h3>
+                    <ul>
+                        <li>Brand storytelling videos, promos, and reels</li>
+                        <li>Podcasts and audio narration</li>
+                        <li>Sound design and voice-over production</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Digital & Interactive Content</h3>
+                    <ul>
+                        <li>Website UX writing and structure</li>
+                        <li>Interactive web reports and multimedia storytelling</li>
+                        <li>Data storytelling and social media campaigns</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Content Systems & Management</h3>
+                    <ul>
+                        <li>Content management setup (CMS, Notion, Airtable)</li>
+                        <li>SEO strategy and analytics reporting</li>
+                        <li>Automation, repurposing, and AI-assisted workflows</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <h3>Education, Consulting & Retainers</h3>
+                    <ul>
+                        <li>Workshops, brand storytelling coaching</li>
+                        <li>Writing and editing training</li>
+                        <li>Monthly retainers and advisory services</li>
+                        <li>Templates, toolkits, and content audits</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="core-principle">
+            <h3>Core Principle</h3>
+            <p><strong>Every piece of content must do something — inform, move, or convert.</strong></p>
+        </div>
+    </footer>
+
+</body>
+</html>
+```

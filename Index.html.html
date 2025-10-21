@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PURESUBSTANCE</title>
+  <link rel="stylesheet" href="stylesheetPS.css">
+</head>
+<body>
+  <!-- HERO SECTION WITH BACKGROUND IMAGE -->
+  <section class="hero" id="home">
+    <header class="navbar">
+      <a href="#home" class="logo">PURESUBSTANCE</a>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact" class="btn-contact">Reach out</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero-content">
+      <h1>Depth. Strategy. Substance.</h1>
+      <p>We create content that must do something — inform, move, or convert.</p>
+      <div class="btn-group">
+        <a href="#services" class="btn primary">Explore Services</a>
+        <a href="#contact" class="btn secondary">Consult Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="content-section" id="services">
+    <h2>Our Core Services</h2>
+    <p>
+      PureSubstance creates, structures, and optimizes all forms of content — written, visual, audio, and interactive — 
+      ensuring each piece aligns with a strategic purpose.
+    </p>
+    <ul>
+      <li>Strategic Content Services</li>
+      <li>Written Content Creation</li>
+      <li>Visual Content Creation</li>
+      <li>Audio & Video Production</li>
+      <li>Digital & Interactive Content</li>
+      <li>Content Systems & Management</li>
+      <li>Education & Consulting</li>
+    </ul>
+    <a href="#contact" class="btn primary">Consult Now</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="content-section" id="about">
+    <h2>About Us</h2>
+    <p>
+      PureSubstance is a content creation and strategy firm that helps individuals, brands, 
+      and organizations communicate with depth, meaning, and precision. We don’t just create content — 
+      we make it sparkle, dance, and occasionally do the moonwalk. Our goal? To turn plain words into 
+      unforgettable experiences that inform, move, and convert.
+    </p>
+
+    <h2>Our Mission</h2>
+    <p>
+      To craft purposeful content that informs, entertains, and occasionally tickles your brain.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="content-section" id="contact">
+    <h2>Get in Touch</h2>
+    <p>
+      Email us at <a href="mailto:contact@puresubstance.com">contact@puresubstance.com</a>
+    </p>
+    <a href="#home" class="btn primary">Back to Home</a>
+  </section>
+
+  <footer>
+    <p>© 2025 PureSubstance</p>
+  </footer>
+
+  <!-- START: JavaScript Implementation -->
+  <script>
+    // Ensure scroll listener is added after DOM is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        const nav = document.querySelector('.navbar');
+        nav.classList.toggle('scrolled', window.scrollY > 50);
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    });
+  </script>
+  <!-- END: JavaScript Implementation -->
+
+</body>
+</html>
